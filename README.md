@@ -1,7 +1,7 @@
 Celeste Data Extractor
 ======================
 
-This is a tool for converting the `.data` image files used by Celeste into png files. 
+This is a tool for converting the `.data` files used by the game [Celeste](http://www.celestegame.com/) into easily-readable png files. 
 
 This has been tested with files from the MacOS Steam and Windows Steam versions of the game.
 
