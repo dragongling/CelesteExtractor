@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelesteExtractor", "CelesteExtractor\CelesteExtractor.csproj", "{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B340A221-90E8-40EB-B3EB-92BC94FA410E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.VersionControlPolicy = $2
+		$0.TextStylePolicy = $3
+		$3.inheritsSet = null
+		$3.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $4
+		$4.scope = text/x-csharp
+		$4.NewLinesForBracesInTypes = False
+		$4.NewLinesForBracesInMethods = False
+		$4.NewLinesForBracesInProperties = False
+		$4.NewLinesForBracesInAccessors = False
+		$4.NewLinesForBracesInAnonymousMethods = False
+		$4.NewLinesForBracesInControlBlocks = False
+		$4.NewLinesForBracesInAnonymousTypes = False
+		$4.NewLinesForBracesInObjectCollectionArrayInitializers = False
+		$4.NewLinesForBracesInLambdaExpressionBody = False
+		$4.NewLineForElse = False
+		$4.NewLineForCatch = False
+		$4.NewLineForFinally = False
+		$0.TextStylePolicy = $5
+		$5.FileWidth = 80
+		$5.TabsToSpaces = True
+		$5.NoTabsAfterNonTabs = True
+		$5.scope = text/plain
+	EndGlobalSection
+EndGlobal
