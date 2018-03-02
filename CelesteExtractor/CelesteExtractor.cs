@@ -18,7 +18,7 @@ namespace CelesteExtractor {
             }
         }
 
-        public Texture2D LoadTextureFromStream(Stream inputStream) {
+        private Texture2D LoadTextureFromStream(Stream inputStream) {
             byte[] textureDimensionsBytes = new byte[8];
             inputStream.Read(textureDimensionsBytes, 0, 8);
             int textureWidth = BitConverter.ToInt32(textureDimensionsBytes, 0);
