@@ -16,6 +16,7 @@ Usage
 Just download the project and use `dotnet run` to run the code. Pass in paths to Celeste data files as arguments in order to convert them. For example:
 
 ```
+cd ~/Downloads/CelesteExtractor/CelesteExtractor
 cp -r ~/Library/Application\ Support/Steam/steamapps/common/Celeste/Content/Graphics/Atlases/Portraits/madeline ~/Desktop
 dotnet run ~/Desktop/madeline/*.data
 ```
