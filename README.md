@@ -13,15 +13,15 @@ Requirements
 Usage
 -----
 
-Just download the project and use `dotnet run` to run the code. Pass in paths to Celeste data files as arguments in order to convert them. For example:
+Just download the project and use `dotnet run` to run the code. Pass in paths to Celeste data files as arguments in order to convert them. For example, to convert all Celeste graphics assets (this will take a few minutes):
 
 ```
 cd ~/Downloads/CelesteExtractor/CelesteExtractor
-cp -r ~/Library/Application\ Support/Steam/steamapps/common/Celeste/Content/Graphics/Atlases/Portraits/madeline ~/Desktop
-dotnet run ~/Desktop/madeline/*.data
+cp -r ~/Library/Application\ Support/Steam/steamapps/common/Celeste/Content/Graphics/Atlases/ ~/Desktop
+dotnet run `find /Users/brian/Desktop/Atlases/ -type f -name "*.data"`
 ```
 
-The converted .png files will be placed in the same directory as the original files.
+Each converted .png file will be placed in the same directory as its original .data file.
 
 License
 -------
