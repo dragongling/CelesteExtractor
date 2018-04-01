@@ -13,9 +13,9 @@ Requirements
 Usage
 -----
 
-Just download the project and use `dotnet run` to run the code. This will automatically download dependencies from nuget. 
+Just download the project and use `dotnet run` to run the code. This will automatically download dependencies from NuGet. 
 
-Pass in paths to Celeste .data files as arguments to `dotnet run` in order to convert them. For example, to convert all Celeste graphics assets (this will take a few minutes):
+You must pass in paths to Celeste .data files as arguments in order to convert them. For example, to convert all Celeste graphics assets (this will take a few minutes):
 
 ```
 cp -r ~/Library/Application\ Support/Steam/steamapps/common/Celeste/Content/Graphics/Atlases/ ~/Desktop
@@ -23,4 +23,4 @@ cd ~/Downloads/CelesteExtractor/CelesteExtractor
 dotnet run `find /Users/brian/Desktop/Atlases/ -type f -name "*.data"`
 ```
 
-Each converted .png file will be placed in the same directory as its original .data file.
+Each converted .png file will be placed in the same directory as its original .data file. The total PNG-compressed size of Celeste's graphics assets is about 310MB.
