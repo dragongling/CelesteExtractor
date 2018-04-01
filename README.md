@@ -16,8 +16,8 @@ Usage
 Just download the project and use `dotnet run` to run the code. Pass in paths to Celeste data files as arguments in order to convert them. For example, to convert all Celeste graphics assets (this will take a few minutes):
 
 ```
-cd ~/Downloads/CelesteExtractor/CelesteExtractor
 cp -r ~/Library/Application\ Support/Steam/steamapps/common/Celeste/Content/Graphics/Atlases/ ~/Desktop
+cd ~/Downloads/CelesteExtractor/CelesteExtractor
 dotnet run `find /Users/brian/Desktop/Atlases/ -type f -name "*.data"`
 ```
 
