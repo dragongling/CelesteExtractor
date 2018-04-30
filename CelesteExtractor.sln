@@ -1,9 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelesteExtractor", "CelesteExtractor\CelesteExtractor.csproj", "{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B340A221-90E8-40EB-B3EB-92BC94FA410E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelesteExtractorNF", "CelesteExtractorNF\CelesteExtractorNF.csproj", "{1E214D93-B677-483C-A787-7951D95602B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,13 +18,23 @@ Global
 		{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E960960D-D4D4-44B1-ACAD-5D6A135F6F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E214D93-B677-483C-A787-7951D95602B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E214D93-B677-483C-A787-7951D95602B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E214D93-B677-483C-A787-7951D95602B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E214D93-B677-483C-A787-7951D95602B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79DC8286-D832-40E0-B09F-F11D222C8861}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
 		$0.VersionControlPolicy = $2
-		$0.TextStylePolicy = $3
+		$0.TextStylePolicy = $5
 		$3.inheritsSet = null
 		$3.scope = text/x-csharp
 		$0.CSharpFormattingPolicy = $4
@@ -38,7 +51,6 @@ Global
 		$4.NewLineForElse = False
 		$4.NewLineForCatch = False
 		$4.NewLineForFinally = False
-		$0.TextStylePolicy = $5
 		$5.FileWidth = 80
 		$5.TabsToSpaces = True
 		$5.NoTabsAfterNonTabs = True

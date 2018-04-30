@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CelesteExtractor": {
+      "commandName": "Project",
+      "commandLineArgs": "00.data"
+    }
+  }
+}
